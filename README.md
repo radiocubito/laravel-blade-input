@@ -1,4 +1,4 @@
-# A self-hosted invoice manager
+# Laravel blade input components made with Tailwind CSS
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/radiocubito/laravel-blade-input.svg?style=flat-square)](https://packagist.org/packages/radiocubito/laravel-blade-input)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/radiocubito/laravel-blade-input/Tests?label=tests)](https://github.com/radiocubito/laravel-blade-input/actions?query=workflow%3ATests+branch%3Amaster)
@@ -51,7 +51,7 @@ If you discover any security related issues, please email oliver@radiocubito.com
 
 ## Credits
 
-- [Oliver Jiménez-Servín](https://github.com/oliverds)
+- [Oliver Jiménez Servín](https://github.com/oliverds)
 - [All Contributors](../../contributors)
 
 ## License
