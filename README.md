@@ -11,7 +11,13 @@ laravel-blade-input is a small collection of blade components for input fields. 
 
 You can install the package via composer:
 
-```blade
+```bash
+composer require radiocubito/laravel-blade-input
+```
+
+## Usage
+
+``` blade
 <x-input.group label="Email address" for="email" :error="$errors->first('email')">
     <x-input.text wire:model.lazy="email" id="email" required autofocus />
 </x-input.group>
@@ -23,13 +29,6 @@ You can install the package via composer:
 <x-input.group label="Description" for="description" :error="$errors->first('description')">
     <x-input.textarea wire:model="description" id="description" />
 </x-input.group>
-```
-
-## Usage
-
-``` php
-$bladeInput = new Radiocubito\BladeInput();
-echo $bladeInput->echoPhrase('Hello, Radiocubito!');
 ```
 
 ## Testing
