@@ -15,25 +15,6 @@ You can install the package via composer:
 composer require radiocubito/laravel-blade-input
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --provider="Radiocubito\BaldeInput\BaldeInputServiceProvider" --tag="migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-```bash
-php artisan vendor:publish --provider="Radiocubito\BaldeInput\BaldeInputServiceProvider" --tag="config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
 ## Usage
 
 ``` php
