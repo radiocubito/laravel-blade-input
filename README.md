@@ -5,14 +5,24 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/radiocubito/laravel-blade-input.svg?style=flat-square)](https://packagist.org/packages/radiocubito/laravel-blade-input)
 
 
-laravel-blade-input let your generate and manage simple invoices.
+laravel-blade-input is a small collection of blade components for input fields. Currently text, textarea and select are available.
 
 ## Installation
 
 You can install the package via composer:
 
-```bash
-composer require radiocubito/laravel-blade-input
+```blade
+<x-input.group label="Email address" for="email" :error="$errors->first('email')">
+    <x-input.text wire:model.lazy="email" id="email" required autofocus />
+</x-input.group>
+
+<x-input.group label="Countries" for="countries" :error="$errors->first('countries')">
+    <x-input.select wire:model="countries" id="countries" :options="$countries" />
+</x-input.group>
+
+<x-input.group label="Description" for="description" :error="$errors->first('description')">
+    <x-input.textarea wire:model="description" id="description" />
+</x-input.group>
 ```
 
 ## Usage
