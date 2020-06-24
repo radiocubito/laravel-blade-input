@@ -1,6 +1,6 @@
 {
     "name": "radiocubito/laravel-blade-input",
-    "description": "A self-hosted invoice manager",
+    "description": "Laravel blade input components made with Tailwind CSS",
     "keywords": [
         "radiocubito",
         "laravel-blade-input"
@@ -9,7 +9,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Oliver Jiménez-Servín",
+            "name": "Oliver Jiménez Servín",
             "email": "oliver@radiocubito.com",
             "homepage": "https://radiocubito.com",
             "role": "Developer"
